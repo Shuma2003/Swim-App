@@ -1,0 +1,106 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background: rgb(63,209,251);
+  background: radial-gradient(circle, rgba(63,209,251,0.5704656862745099) 0%, rgba(70,107,252,0.6516981792717087) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+  
+
+h1{
+  color: rgb(112, 78, 13);
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+label{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(112, 78, 13);
+font-size: 20px;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: oblique;
+}
+input[type="number"]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-left: 310px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+input[type=text]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-left: 310px;
+margin-top: 0;
+font-size: 25px;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con{
+  width: 100px;
+  height: 20px;
+  margin: auto;
+  background-color:#fcfcfa ;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;
+  overflow: hidden;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+input[type=submit] {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6c9d1a;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 5px;
+&:hover {
+      background-color: #4C7B1A;
+    }
+}
+@media screen and (max-width: 600px) {
+  h1 {font-size:  18px;}
+  label {display: block;
+        margin-bottom: 5px;}
+  input[type="number"], input[type=text] {
+            width: 100%;
+            margin-left: 0;
+          }}
+          select{
+            margin-left:350px ;
+            font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+
+          }
+          p{
+            margin-top: 200px;
+            margin-left: 350px;
+          }
